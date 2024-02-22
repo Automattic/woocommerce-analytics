@@ -12,3 +12,6 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - General: add main classes to the package.
 - Initial version.
+
+### Fixed
+- Fix namespace issue with WooCommerce class reference.
