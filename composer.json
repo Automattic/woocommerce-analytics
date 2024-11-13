@@ -4,13 +4,13 @@
 	"type": "jetpack-library",
 	"license": "GPL-2.0-or-later",
 	"require": {
-		"php": ">=7.0",
-		"automattic/jetpack-connection": "^5.1.7",
-		"automattic/jetpack-constants": "^2.0.5"
+		"php": ">=7.2",
+		"automattic/jetpack-connection": "^6.0.0-alpha",
+		"automattic/jetpack-constants": "^3.0.0-alpha"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^1.1.1",
-		"automattic/jetpack-changelogger": "^4.2.8"
+		"automattic/jetpack-changelogger": "^5.0.0-alpha"
 	},
 	"autoload": {
 		"classmap": [
@@ -39,7 +39,7 @@
 		},
 		"autotagger": true,
 		"branch-alias": {
-			"dev-trunk": "0.1.x-dev"
+			"dev-trunk": "0.2.x-dev"
 		},
 		"textdomain": "woocommerce-analytics",
 		"version-constants": {
