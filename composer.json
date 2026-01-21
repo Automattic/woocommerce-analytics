@@ -6,7 +6,7 @@
 	"require": {
 		"php": ">=7.2",
 		"automattic/jetpack-assets": "^4.3.20",
-		"automattic/jetpack-connection": "^6.20.3",
+		"automattic/jetpack-connection": "^6.20.4-alpha",
 		"automattic/jetpack-constants": "^3.0.8",
 		"automattic/jetpack-device-detection": "^3.3.0",
 		"automattic/block-delimiter": "^0.3.4"
