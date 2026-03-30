@@ -5,8 +5,8 @@
 	"license": "GPL-2.0-or-later",
 	"require": {
 		"php": ">=7.2",
-		"automattic/jetpack-assets": "^4.3.30-alpha",
-		"automattic/jetpack-connection": "^8.1.0-alpha",
+		"automattic/jetpack-assets": "^4.3.30",
+		"automattic/jetpack-connection": "^8.1.0",
 		"automattic/jetpack-constants": "^3.0.8",
 		"automattic/jetpack-device-detection": "^3.4.0",
 		"automattic/block-delimiter": "^0.3.5"
@@ -15,7 +15,7 @@
 		"yoast/phpunit-polyfills": "^4.0.0",
 		"automattic/jetpack-changelogger": "^6.0.14",
 		"automattic/jetpack-test-environment": "@dev",
-		"automattic/phpunit-select-config": "^1.0.4-alpha"
+		"automattic/phpunit-select-config": "^1.0.4"
 	},
 	"autoload": {
 		"classmap": [
