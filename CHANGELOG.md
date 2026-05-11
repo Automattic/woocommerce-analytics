@@ -5,12 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.16.4-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## 0.16.4 - 2026-05-11
 ### Changed
-- Update package dependencies.
+- Update package dependencies. [#64040]
+
+### Fixed
+- Skip server-side analytics events from cookie-less contexts (REST API, XMLRPC, cron, WP-CLI) to prevent inflated session counts. [#64686]
 
 ## [0.16.3] - 2026-04-06
 ### Changed
@@ -28,7 +28,7 @@ This is an alpha version! The changes listed here are not final.
 - Update package dependencies. [#47684]
 
 ### Fixed
-- Disable batched analytics requests when a SOCKS proxy is configured, falling back to wp_remote_get() which respects WP_PROXY_* settings. [#47707]
+- Disable batched analytics requests when a SOCKS proxy is configured, falling back to wp*remote_get() which respects WP_PROXY*\* settings. [#47707]
 
 ## [0.16.0] - 2026-03-16
 ### Changed
@@ -272,7 +272,7 @@ This is an alpha version! The changes listed here are not final.
 
 ## [0.1.9] - 2024-09-09
 ### Added
-- Add Store ID property in common woocommerce analytics  properties. [#38857]
+- Add Store ID property in common woocommerce analytics properties. [#38857]
 
 ## [0.1.8] - 2024-08-26
 ### Changed
@@ -316,7 +316,6 @@ This is an alpha version! The changes listed here are not final.
 - Fix namespace issue with WooCommerce class reference. [#35857]
 - General: bail early when WooCommerce is not active. [#36278]
 
-[0.16.4-alpha]: https://github.com/Automattic/woocommerce-analytics/compare/v0.16.3...v0.16.4-alpha
 [0.16.3]: https://github.com/Automattic/woocommerce-analytics/compare/v0.16.2...v0.16.3
 [0.16.2]: https://github.com/Automattic/woocommerce-analytics/compare/v0.16.1...v0.16.2
 [0.16.1]: https://github.com/Automattic/woocommerce-analytics/compare/v0.16.0...v0.16.1
